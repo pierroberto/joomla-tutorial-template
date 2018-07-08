@@ -2,8 +2,8 @@
 <extension version="2.5" type="template">
   <name>tutorial</name>
 	<version>1.0</version>
-	<creationDate>4/30/2012</creationDate>
-	<author>Kyle Ledbetter</author>
+	<creationDate>7/8/2018</creationDate>
+	<author>Pier Roberto Lucisano</author>
 	<authorEmail>admin@joomla.org</authorEmail>
 	<copyright>Copyright (C) 2005 - 2014 Open Source Matters, Inc. All rights reserved.</copyright>
 	<description>TPL_PROTOSTAR_XML_DESCRIPTION</description>
