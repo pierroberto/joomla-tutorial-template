@@ -25,5 +25,7 @@
 		<position>top</position>
     <position>bottom</position>
     <position>left</position>
+    <position>main-menu</position>
+    <position>logo</position>
   </positions>
 </extension>

@@ -1,7 +1,25 @@
-#left {
+#left ul {
+    background-color: blue;
+}
+
+#menu2 {
     background-color: lime;
 }
 
-#left ul {
-    background-color: blue;
+@media (min-width: 576px) {  }
+
+@media (min-width: 768px) { 
+
+ }
+
+@media (min-width: 992px) {
+    #left {
+        display: none;
+    }
+}
+
+@media (min-width: 1200px) {
+    #left {
+        display: none;
+    }
 }
