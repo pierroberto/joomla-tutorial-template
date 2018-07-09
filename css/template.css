@@ -1,9 +1,5 @@
-#left ul {
+#menu {
     background-color: blue;
-}
-
-#menu2 {
-    background-color: lime;
 }
 
 @media (min-width: 576px) {  }

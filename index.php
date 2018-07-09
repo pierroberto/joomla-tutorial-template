@@ -11,16 +11,19 @@
         <link rel="stylesheet" href="<?php echo $this->baseurl ?>templates/joomla-tutorial-template/css/template.css" type="text/css" />
     </head>
     <body>
+        <div class="container-fluid">
+            <div id="menu" class="row">
+                <div class="col-3">
+                    <jdoc:include type="modules" name="logo" />
+                </div>
+                <div class="col-9 menu-mobile">
+                    <jdoc:include type="modules" name="main-menu" />
+                </div>
+            </div>
+        </div>
         <jdoc:include type="modules" name="top" /> 
         <jdoc:include type="component" />
         <jdoc:include type="modules" name="bottom" />
-        <div id="menu2"> ciao
-            <jdoc:include type="modules" name="logo" />
-            <div class="menu-mobile container-fluid">
-                <jdoc:include type="modules" name="main-menu" />
-                <jdoc:include type="modules" name="left" />
-            </div>
-        </div>
         <div id="left">
             <jdoc:include type="modules" name="left" />
         </div>
