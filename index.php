@@ -13,11 +13,10 @@
     <body>
         <div class="container-fluid">
             <div id="menu" class="row">
-                <div class="col-3">
-                    <jdoc:include type="modules" name="logo" />
-                </div>
-                <div class="col-9 menu-mobile">
-                    <jdoc:include type="modules" name="main-menu" />
+                <div class="col-3 logo"></div>
+                <div class="col-9 menu-mobile d-flex justify-content-end">
+                    <!-- <jdoc:include type="modules" name="main-menu" /> -->
+                    <img class="menu__burger" src="<?php echo $this->baseurl ?>templates/joomla-tutorial-template/assets/burger-menu.svg" />
                 </div>
             </div>
         </div>

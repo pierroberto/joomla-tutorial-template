@@ -1,5 +1,11 @@
 #menu {
-    background-color: blue;
+    background-color: rgba(249, 249, 249, 0.78);
+    padding: 20px 0;
+}
+
+#menu img {
+    width: 40px;
+    background-color: lime;
 }
 
 @media (min-width: 576px) {  }
