@@ -4,6 +4,10 @@
 
     img {
         width: 40px;
-        background-color: lime;
+        height: 40px;
+    }
+
+    @include respond-to(md) { 
+        display: none;
     }
 }

@@ -13,8 +13,7 @@ $font-bold: 'Roboto:300,400';
 // BREAKPOINTS
 // ====================================================================
 
-$breakpoint-extrasmall: 576px;
+$breakpoint-extrasmall: 768px;
 $breakpoint-small: $breakpoint-extrasmall;
-$breakpoint-medium: 768px;
-$breakpoint-large: 992px;
-$breakpoint-extralarge: 1200px;
+$breakpoint-medium: 992px;
+$breakpoint-large: 1200px;

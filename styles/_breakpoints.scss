@@ -1,0 +1,11 @@
+@mixin respond-to($media) {
+  @if $media == sm {
+    @media only screen and (min-width: $breakpoint-small) { @content; }
+  }
+  @else if $media == md {
+    @media only screen and (min-width: $breakpoint-small + 1) and (max-width: $breakpoint-large - 1) { @content; }
+  }
+  @else if $media == lg {
+    @media only screen and (max-width: $breakpoint-large) { @content; }
+  }
+}
