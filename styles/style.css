@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Roboto:300,400";
+  src: url("Roboto:300,400"); }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("Roboto"); }
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 100%; }
+
+#menu {
+  background-color: rgba(249, 249, 249, 0.78);
+  padding: 20px 0; }
+  #menu img {
+    width: 40px;
+    background-color: lime; }

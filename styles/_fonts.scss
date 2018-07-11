@@ -1,0 +1,11 @@
+@charset 'UTF-8';
+
+@mixin create-font-family($font-family-name) {
+    @font-face {
+        font-family: $font-family-name;
+        src: url($font-family-name);
+    }
+}
+
+@include create-font-family('Roboto:300,400');
+@include create-font-family('Roboto');

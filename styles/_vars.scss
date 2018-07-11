@@ -1,0 +1,20 @@
+$white: #fff;
+$black: #000;
+$test: lime;
+
+// ====================================================================
+// FONTS
+// ====================================================================
+
+$font-roboto: 'Roboto';
+$font-bold: 'Roboto:300,400';
+
+// ====================================================================
+// BREAKPOINTS
+// ====================================================================
+
+$breakpoint-extrasmall: 576px;
+$breakpoint-small: $breakpoint-extrasmall;
+$breakpoint-medium: 768px;
+$breakpoint-large: 992px;
+$breakpoint-extralarge: 1200px;
