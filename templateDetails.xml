@@ -15,6 +15,8 @@
     <filename>templateDetails.xml</filename>
     <filename>template_preview.png</filename>
     <filename>template_thumbnail.png</filename>
+    <filename>gulpfile.js</filename>
+    <filename>package.json</filename>
     <folder>css</folder>
     <folder>html</folder>
     <folder>images</folder>

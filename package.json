@@ -1,7 +1,6 @@
 {
   "name": "joomla-tutorial-template",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +14,11 @@
   "bugs": {
     "url": "https://github.com/pierroberto/joomla-tutorial-template/issues"
   },
-  "homepage": "https://github.com/pierroberto/joomla-tutorial-template#readme"
+  "homepage": "https://github.com/pierroberto/joomla-tutorial-template#readme",
+  "description": "",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^4.0.1"
+  }
 }
